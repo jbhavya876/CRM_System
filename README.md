@@ -253,7 +253,7 @@ Key tables:
 - JWT token-based authentication
 - Password hashing with bcrypt
 - CORS configuration for frontend-backend communication
-- SQL injection prevention with parameterized queries
+- SQL injection prevention with parameterised queries
 - Input validation with Zod schemas
 - Idempotency key support for duplicate prevention
 
@@ -281,7 +281,7 @@ This project is licensed under the ISC License.
 
 ## 📞 Support
 
-For support, email your-email@example.com or open an issue in the repository.
+If you need help, please email jbhavya876@gmail.com or open an issue in the repository.
 
 ---
 
