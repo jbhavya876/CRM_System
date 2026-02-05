@@ -1,0 +1,37 @@
+{
+  "name": "lead_investigation_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec pnpx ts-node src/server.ts",
+    "worker": "pnpx ts-node src/workers/worker.ts",
+    "build": "pnpx tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@fastify/jwt": "^10.0.0",
+    "bcrypt": "^6.0.0",
+    "bullmq": "^5.66.5",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.7.1",
+    "fastify-plugin": "^5.1.0",
+    "ioredis": "^5.9.2",
+    "pg": "^8.17.1",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/node": "^25.0.9",
+    "@types/pg": "^8.16.0",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
